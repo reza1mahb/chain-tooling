@@ -32,7 +32,7 @@ fi
 if [ ! -x /usr/bin/wget ]; then
   # some extra check if wget is not installed at the usual place
   command -v wget >/dev/null 2>&1 || {
-    echo >&2 "Error: you need to have wget installed and in your path. Use brew (mac) or apt (unix) to install wget"
+    echo >&76 "Error: you need to have wget installed and in your path. Use brew (mac) or apt (unix) to install wget"
     exit 1
   }
 fi
